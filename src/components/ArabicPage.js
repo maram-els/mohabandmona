@@ -217,7 +217,6 @@ const ArabicPage = () => {
 
       <section id="rsvp-section" className="form-section">
         <h2>تأكيد الحضور</h2>
-        <h4>*الرجاء تأكيد الحضور قبل ١٨ سبتمبر ٢٠٢٤</h4>
         <h5>**بعد الضغط على إرسال، يرجى الانتظار لبضع ثواني للحصول على تأكيدك</h5>
         <form onSubmit={saveRSVP}>
           <label htmlFor="full-name" style={{textAlign: 'right'}}>*الاسم بالكامل</label>

@@ -183,7 +183,6 @@ const EnglishPage = () => {
 
       <section id="rsvp-section" className="form-section">
         <h2>RSVP</h2>
-        <h4>*Kindly respond by September 18, 2024</h4>
         <h5>**Once you hit the Submit button, please wait for a few seconds for your confirmation</h5>
         <form onSubmit={saveRSVP}>
           <label htmlFor="full-name" style={{textAlign: 'left'}}>Full Name*</label>
